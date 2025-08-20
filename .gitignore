@@ -1,0 +1,32 @@
+# dependencies
+node_modules/
+.pnpm-store/
+/node
+/node.exe
+.npm/
+.yarn/*
+!.yarn/releases/
+!.yarn/plugins/
+!.yarn/sdks/
+!.yarn/versions/
+
+# build output
+dist/
+build/
+out/
+.next/
+.nuxt/
+coverage/
+.cache/
+
+# logs & misc
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.DS_Store
+
+# env
+.env
+.env.*
